@@ -1,0 +1,14 @@
+var lemein = “0”;
+var lemeout = 0;
+var msg = “”;
+if (lemein) {
+ msg += “hi”;
+ }
+if (lemeout) {
+ msg += ‘Hello’;
+}
+console.log(msg);
+
+OUTPUT: 
+hi because lemein is a String containing 0, so not null but lemeout is null
+
